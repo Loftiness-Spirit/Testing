@@ -1,3 +1,5 @@
+import numpy as np
+import scipy as sc
 # Матричный калькулятор (операции с матрицами, в том числе с разреженными).
 
 
@@ -6,16 +8,16 @@ class MatrixCalculator:
         pass
 
     def add_matrices(self, matrix1, matrix2):
-        pass
+        return matrix1 + matrix2
 
     def multiply_matrices(self, matrix1, matrix2):
-        pass
+        return np.dot(matrix1, matrix2)
 
     def transposition_matrix(self, matrix):
-        pass
+        return matrix.transpose()
 
     def transform_to_coo(self, matrix):
-        pass
+        return sc.sparse.coo_matrix(matrix)
 
     def transform_to_csr(self, matrix):
         pass
