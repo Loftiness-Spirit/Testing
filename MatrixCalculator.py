@@ -20,16 +20,16 @@ class MatrixCalculator:
         return sc.sparse.coo_matrix(matrix)
 
     def transform_to_csr(self, matrix):
-        pass
+        return sc.sparse.csr_matrix(matrix)
 
     def transform_to_bsr(self, matrix):
-        pass
+        return sc.sparse.bsr_matrix(matrix)
 
     def add_csr_matrices(self, matrix1, matrix2):
-        pass
+        return matrix1 + matrix2
 
     def multiply_csr_matrices(self, matrix1, matrix2):
-        pass
+        return sc.sparse.csr_matrix.dot(matrix1, matrix2)
 
 
 if __name__ == '__main__':

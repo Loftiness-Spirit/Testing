@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09e40d8f-7192-46f4-9813-befc3019aaf3" name="Changes" comment="Before methods realisation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixCalculator.py" afterDir="false" />
-    </list>
+    <list default="true" id="09e40d8f-7192-46f4-9813-befc3019aaf3" name="Changes" comment="TDD realisation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696975905341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TDD realisation">
+      <created>1696977004255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696977004255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Before methods realisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before methods realisation" />
+    <MESSAGE value="TDD realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD realisation" />
   </component>
 </project>
